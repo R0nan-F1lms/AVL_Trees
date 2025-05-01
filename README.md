@@ -21,7 +21,7 @@ This tool is helpful for **learning**, **teaching**, or **debugging** AVL tree o
 
 ### 1. **Insertion Visualisation**
 
-In the `main_insertion_visualisation.py` (or similar file), you'll find:
+In each file, you'll find:
 
 ```python
 keys_to_insert = [20, 9, 3, 7, 5, 8, 25, 30, 15, 6, 17]
@@ -39,7 +39,7 @@ When you run the script, each step will:
 
 ### 2. **Deletion Visualisation**
 
-In the deletion script (e.g. `main_deletion_visualisation.py`), a **fully built AVL tree** is used first. Then, a list like the following is provided:
+In the deletion script (e.g. `AvlTreesDel.py`), a **fully built AVL tree** is used first. Then, a list like the following is provided:
 
 ```python
 keys_to_delete = [20, 15, 8, 25, 30, 9, 17, 5, 6, 3, 7]
@@ -73,10 +73,8 @@ Or install via your package manager or Python environment tool.
 
 ## 📁 Files
 
-- `main_insertion_visualisation.py` – Visualises insertions.
-- `main_deletion_visualisation.py` – Visualises deletions.
-- `avl.py` – Contains AVL tree logic (insertion, deletion, balancing).
-- `plot_utils.py` – Handles tree drawing and figure annotation.
+- `AvlTrees.py` – Visualises insertions.
+- `AvlTreesDel.py` – Visualises deletions.
 
 ---
 
